@@ -13,7 +13,7 @@ export default class ErrorBoundary extends Component {
 
   componentDidCatch(error, info) {
     if (import.meta.env.DEV) {
-      console.error('[Fathom ErrorBoundary]', error, info);
+      console.error('[Murmuro ErrorBoundary]', error, info);
     }
   }
 

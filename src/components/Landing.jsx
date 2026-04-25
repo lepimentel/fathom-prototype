@@ -23,7 +23,7 @@ export default function Landing() {
           <div className="w-8 h-8 rounded-lg bg-accent/10 border border-accent/30 flex items-center justify-center">
             <BrainCircuit aria-hidden="true" className="w-4 h-4 text-accent" />
           </div>
-          <span className="font-display font-semibold text-lg tracking-tight">Fathom</span>
+          <span className="font-display font-semibold text-lg tracking-tight">Murmuro</span>
         </div>
         <div className="flex items-center gap-7 text-sm text-ink-secondary">
           {['Product', 'Customers', 'Pricing', 'Research'].map((item) => (
@@ -85,7 +85,7 @@ export default function Landing() {
           transition={{ delay: 0.25 }}
           className="text-ink-secondary text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Fathom conducts 20-minute voice interviews with your employees, observes their
+          Murmuro conducts 20-minute voice interviews with your employees, observes their
           screens, and assembles a living operational map — exposing the workarounds,
           bottlenecks, and tribal knowledge no org chart will ever show you.
         </motion.p>
@@ -145,7 +145,7 @@ export default function Landing() {
                 <div className="w-3 h-3 rounded-full bg-emerald-400/70" />
               </div>
               <div className="ml-4 flex-1 h-7 rounded-md bg-black/40 border border-white/[0.06] flex items-center px-3 text-[11px] text-ink-secondary font-mono">
-                fathom.ai/inquiry/procurement-cycle
+                murmuro.ai/inquiry/procurement-cycle
               </div>
               <div className="text-[10px] uppercase tracking-wider text-ink-secondary">
                 Live · <span className="font-mono">#0042</span>
@@ -193,7 +193,7 @@ export default function Landing() {
       </section>
 
       <footer className="relative z-10 px-8 py-8 border-t border-white/[0.06] text-xs text-ink-secondary flex items-center justify-between">
-        <div>© 2026 Fathom Labs Inc. All rights reserved.</div>
+        <div>© 2026 Murmuro Labs Inc. All rights reserved.</div>
         <div className="flex items-center gap-6">
           {['Privacy', 'Security', 'SOC 2'].map((item) => (
             <button

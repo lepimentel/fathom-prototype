@@ -1,6 +1,6 @@
-# Fathom — Prototype
+# Murmuro — Prototype
 
-Sleek dark-interface prototype for **Fathom.ai**, an enterprise operational intelligence
+Sleek dark-interface prototype for **Murmuro.ai**, an enterprise operational intelligence
 tool. Built with React, Tailwind CSS, Lucide React, and Framer Motion.
 
 ## Run

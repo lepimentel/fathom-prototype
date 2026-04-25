@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from 'react';
 import { BG_TONES, DEFAULT_TWEAKS } from './tones.js';
 
-const STORAGE_KEY = 'fathom-tweaks-v1';
+const STORAGE_KEY = 'murmuro-tweaks-v1';
 
 function hexToRgbTriple(hex) {
   const m = hex.replace('#', '').match(/.{1,2}/g);

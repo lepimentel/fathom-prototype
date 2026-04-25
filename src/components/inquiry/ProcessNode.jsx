@@ -51,7 +51,7 @@ export default function ProcessNode({ node, isLast, index }) {
                 <AlertTriangle aria-hidden="true" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <div className="text-[11px] font-bold uppercase tracking-[1px] text-red-400 mb-1">
-                    Fathom Alert
+                    Murmuro Alert
                   </div>
                   <div className="text-xs text-ink-primary leading-relaxed italic">
                     {node.alert}

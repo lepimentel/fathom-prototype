@@ -95,7 +95,7 @@ export default function Sidebar({
             <div className="w-7 h-7 rounded-md bg-accent/10 border border-accent/30 flex items-center justify-center group-hover:bg-accent/20 transition">
               <BrainCircuit aria-hidden="true" className="w-3.5 h-3.5 text-accent" />
             </div>
-            <span className="font-display font-semibold tracking-tight">Fathom</span>
+            <span className="font-display font-semibold tracking-tight">Murmuro</span>
           </button>
           <div className="flex items-center gap-2">
             <span className="text-[10px] uppercase tracking-[1px] text-ink-secondary border border-white/10 rounded px-1.5 py-0.5 font-mono">

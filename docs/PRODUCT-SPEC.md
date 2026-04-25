@@ -1,15 +1,15 @@
-# Fathom.ai — Product Specification
+# Murmuro.ai — Product Specification
 
 **Status:** Prototype shipped · 2026-04-24
 **Owner:** Leandro Pimentel (VP Operations)
-**Repo:** `fathom-prototype`
-**Linear project:** [Fathom.ai Prototype](https://linear.app/lepiment/project/fathomai-prototype-e9aba50e1d34)
+**Repo:** `murmuro-prototype`
+**Linear project:** [Murmuro.ai Prototype](https://linear.app/lepiment/project/fathomai-prototype-e9aba50e1d34)
 
 ---
 
 ## 1. One-line description
 
-Fathom is an enterprise operational intelligence tool that figures out how a company actually works — by interviewing employees and mapping their real workflows.
+Murmuro is an enterprise operational intelligence tool that figures out how a company actually works — by interviewing employees and mapping their real workflows.
 
 ## 2. The problem
 
@@ -22,7 +22,7 @@ Both are wrong. The org chart misses the matrix dependencies; the process diagra
 
 When operations break — onboarding stretches to 23 days, procurement leaks 14 days, support churns 38% — leadership runs internal investigations that take weeks, surface five conflicting narratives, and rarely produce mechanical fixes.
 
-## 3. The Fathom thesis
+## 3. The Murmuro thesis
 
 Have AI agents do what consultants can't afford to do at scale: interview every employee, watch their screens, and reconstruct the operational map from the ground up.
 
@@ -47,7 +47,7 @@ Have AI agents do what consultants can't afford to do at scale: interview every 
 > **I want to** understand the actual work behind the metric across all teams involved,
 > **so I can** fund mechanical fixes instead of running another offsite about it.
 
-Fathom replaces:
+Murmuro replaces:
 - Internal "tiger team" investigations (4–8 weeks)
 - Big-4 consulting engagements ($150K–$500K)
 - Survey-tool churn audits (low signal, attribution-free)
@@ -64,7 +64,7 @@ Default dashboard view. Four metric cards (Active Agents, Total Interviews, Scre
 
 ### 6.3 Inquiry Detail
 Per-inquiry deep dive. Variants:
-- **Active inquiry** — operational map (vertical timeline of process nodes), Fathom Recommendation card with quantified impact, recent voice interview cards. Bottleneck node renders red with embedded "Fathom Alert" callout.
+- **Active inquiry** — operational map (vertical timeline of process nodes), Murmuro Recommendation card with quantified impact, recent voice interview cards. Bottleneck node renders red with embedded "Murmuro Alert" callout.
 - **Archived inquiry** — emerald "Inquiry Archived" header, outcome summary, key interview quotes, downloadable final report.
 
 Each of the 5 mock inquiries (onboarding, procurement, renewals, support churn, eng-design handoff) carries its own narrative — process nodes, insights, recommendation, metadata stats, employee avatars.
@@ -220,6 +220,6 @@ A runtime predicate `isActiveInquiry(inq)` enforces shape correctness.
 
 ## 15. Links
 
-- **Prototype repo:** https://github.com/lepimentel/fathom-prototype
+- **Prototype repo:** https://github.com/lepimentel/murmuro-prototype
 - **Linear project:** https://linear.app/lepiment/project/fathomai-prototype-e9aba50e1d34
 - **Live demo (local):** http://localhost:5180/

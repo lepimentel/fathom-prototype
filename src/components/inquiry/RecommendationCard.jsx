@@ -16,7 +16,7 @@ export default function RecommendationCard({ recommendation, archived }) {
             <Sparkles aria-hidden="true" className="w-3.5 h-3.5 text-accent" />
           </div>
           <div className="text-[11px] font-bold uppercase tracking-[1px] text-accent">
-            {archived ? 'Outcome Summary' : 'Fathom Recommendation'}
+            {archived ? 'Outcome Summary' : 'Murmuro Recommendation'}
           </div>
         </div>
         <h3 className="font-display text-lg font-medium mb-2 leading-snug">

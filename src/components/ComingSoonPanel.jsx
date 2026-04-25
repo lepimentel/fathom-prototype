@@ -7,7 +7,7 @@ const presets = {
     eyebrow: 'Operational Map · Beta',
     title: 'A live map of how your company actually works',
     body:
-      'Cross-inquiry process graph. Watch dependencies, ownership, and bottlenecks emerge across every team Fathom has interviewed.',
+      'Cross-inquiry process graph. Watch dependencies, ownership, and bottlenecks emerge across every team Murmuro has interviewed.',
     cta: 'Get notified when it ships',
     bullets: [
       'Federated graph across all active and completed inquiries',
@@ -46,7 +46,7 @@ const presets = {
     eyebrow: 'Workspace Settings',
     title: 'Workspace, integrations, and access policies',
     body:
-      'Connect SSO, configure integrations (Slack, Linear, Jira), set retention policies, and manage member roles for your Fathom workspace.',
+      'Connect SSO, configure integrations (Slack, Linear, Jira), set retention policies, and manage member roles for your Murmuro workspace.',
     cta: 'Get notified when it ships',
     bullets: [
       'SSO via Okta, Azure AD, Google Workspace',
