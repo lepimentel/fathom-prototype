@@ -3,8 +3,10 @@ import { useLocation } from 'react-router-dom';
 import {
   ArrowLeft,
   BrainCircuit,
+  Cog,
   LayoutDashboard,
   MessageSquareQuote,
+  Mic2,
   Network,
   Plus,
   Settings,
@@ -16,6 +18,8 @@ const navItems = [
   { id: 'overview', label: 'Executive Overview', icon: LayoutDashboard, to: '/dashboard' },
   { id: 'map', label: 'Operational Map', icon: Network, to: '/dashboard/map' },
   { id: 'voices', label: 'Employee Voices', icon: MessageSquareQuote, to: '/dashboard/voices' },
+  { id: 'agents', label: 'Interview Agents', icon: Mic2, to: '/dashboard/agents' },
+  { id: 'settings', label: 'Settings', icon: Cog, to: '/dashboard/settings' },
 ];
 
 export default function Sidebar({

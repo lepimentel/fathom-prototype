@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, MessageSquareQuote, Network } from 'lucide-react';
+import { ArrowRight, Cog, MessageSquareQuote, Mic2, Network } from 'lucide-react';
 
 const presets = {
   map: {
@@ -26,6 +26,32 @@ const presets = {
       'Semantic search across 1,248 voice interviews',
       'Auto-tagged for workaround / friction / aha-moment',
       'Redacted quote attribution with consent metadata',
+    ],
+  },
+  agents: {
+    icon: Mic2,
+    eyebrow: 'Interview Agents · Beta',
+    title: 'Manage your fleet of voice interviewers',
+    body:
+      'Configure interview personas, scripts, and call windows. Track agent capacity, completion rate, and average transcript quality across every inquiry.',
+    cta: 'Get notified when it ships',
+    bullets: [
+      'Per-inquiry agent assignment with timezone-aware scheduling',
+      'Custom interview scripts with branching follow-ups',
+      'Real-time call quality and consent capture metrics',
+    ],
+  },
+  settings: {
+    icon: Cog,
+    eyebrow: 'Workspace Settings',
+    title: 'Workspace, integrations, and access policies',
+    body:
+      'Connect SSO, configure integrations (Slack, Linear, Jira), set retention policies, and manage member roles for your Fathom workspace.',
+    cta: 'Get notified when it ships',
+    bullets: [
+      'SSO via Okta, Azure AD, Google Workspace',
+      'MCP server configuration for downstream Claude / Cursor agents',
+      'Per-inquiry redaction rules and PII consent windows',
     ],
   },
 };

@@ -84,3 +84,52 @@ button[aria-disabled='true'] {
     /* transitions kept enabled for hover color/border feedback; only animations are squashed */
   }
 }
+
+/* ─── Light-mode (cream tone) overrides — applied when <html data-mode="light"> ───
+   Token-driven background already swaps via CSS vars, but white-alpha utilities and
+   slate-tint chips need an editorial paper treatment. Ported from Anthropic design
+   handoff bundle (2026-04-25). */
+html[data-mode='light'] body {
+  background: rgb(var(--color-bg));
+  color: rgb(var(--color-ink-primary));
+}
+
+/* white-alpha backgrounds → warm-paper alpha */
+html[data-mode='light'] .bg-white\/\[0\.02\],
+html[data-mode='light'] .bg-white\/\[0\.03\],
+html[data-mode='light'] .bg-white\/\[0\.04\] { background-color: rgba(61, 52, 43, 0.04); }
+html[data-mode='light'] .bg-white\/\[0\.05\],
+html[data-mode='light'] .bg-white\/\[0\.06\] { background-color: rgba(61, 52, 43, 0.06); }
+html[data-mode='light'] .bg-white\/\[0\.08\] { background-color: rgba(61, 52, 43, 0.08); }
+html[data-mode='light'] .bg-white\/5 { background-color: rgba(61, 52, 43, 0.05); }
+html[data-mode='light'] .bg-white\/10 { background-color: rgba(61, 52, 43, 0.08); }
+html[data-mode='light'] .hover\:bg-white\/5:hover,
+html[data-mode='light'] .hover\:bg-white\/\[0\.05\]:hover { background-color: rgba(61, 52, 43, 0.07); }
+
+/* white-alpha borders */
+html[data-mode='light'] .border-white\/\[0\.06\],
+html[data-mode='light'] .border-white\/\[0\.08\] { border-color: rgba(61, 52, 43, 0.12); }
+html[data-mode='light'] .border-white\/10 { border-color: rgba(61, 52, 43, 0.16); }
+html[data-mode='light'] .border-white\/\[0\.15\],
+html[data-mode='light'] .border-white\/\[0\.18\] { border-color: rgba(61, 52, 43, 0.20); }
+html[data-mode='light'] .hover\:border-white\/\[0\.12\]:hover,
+html[data-mode='light'] .hover\:border-white\/\[0\.15\]:hover { border-color: rgba(61, 52, 43, 0.22); }
+
+/* sidebar deeper shade picks up panel + tint */
+html[data-mode='light'] .bg-bg-deep\/95 { background-color: rgba(245, 240, 231, 0.92); }
+
+/* status badge text contrast */
+html[data-mode='light'] .text-emerald-400 { color: #047857; }
+html[data-mode='light'] .text-emerald-300 { color: #059669; }
+html[data-mode='light'] .text-red-400 { color: #B91C1C; }
+html[data-mode='light'] .text-red-300 { color: #7F1D1D; }
+html[data-mode='light'] .text-amber-300 { color: #B45309; }
+
+/* scrollbar */
+html[data-mode='light'] ::-webkit-scrollbar-thumb { background: rgba(61, 52, 43, 0.15); }
+html[data-mode='light'] ::-webkit-scrollbar-thumb:hover { background: rgba(61, 52, 43, 0.30); }
+
+/* avatar gradient for light mode (the cyan-to-blue Header avatar gets too washed out) */
+html[data-mode='light'] .from-accent.to-blue-600 {
+  filter: saturate(1.15);
+}

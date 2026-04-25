@@ -60,6 +60,8 @@ export default function Dashboard() {
               <Route index element={<ExecutiveOverview onSelectInquiry={goToInquiry} />} />
               <Route path="map" element={<ComingSoonPanel kind="map" />} />
               <Route path="voices" element={<ComingSoonPanel kind="voices" />} />
+              <Route path="agents" element={<ComingSoonPanel kind="agents" />} />
+              <Route path="settings" element={<ComingSoonPanel kind="settings" />} />
               <Route
                 path="inquiry/:inquiryId"
                 element={<InquiryRoute onBack={goToOverview} />}
