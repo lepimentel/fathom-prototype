@@ -220,6 +220,6 @@ A runtime predicate `isActiveInquiry(inq)` enforces shape correctness.
 
 ## 15. Links
 
-- **Prototype repo:** _to be filled when GitHub repo is created_
+- **Prototype repo:** https://github.com/lepimentel/fathom-prototype
 - **Linear project:** https://linear.app/lepiment/project/fathomai-prototype-e9aba50e1d34
 - **Live demo (local):** http://localhost:5180/
